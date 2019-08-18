@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet" />
+    <link href="/packages/sea/sea.css" rel="stylesheet" />
+    <link href="/packages/nature/nature.css" rel="stylesheet" />
+    <link href="/packages/fantasy/fantasy.css" rel="stylesheet" />
+    <link href="/packages/city/city.css" rel="stylesheet" />
+
+    <style>
+      .player {
+        margin: 0 auto;
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="player">
+      <h2>Sea</h2>
+      <video
+        id="sea-video"
+        class="video-js vjs-theme-sea"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://stream.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3.m3u8"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <div class="player">
+      <h2>Nature</h2>
+      <video
+        id="nature-video"
+        class="video-js vjs-theme-nature"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://stream.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3.m3u8"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <div class="player">
+      <h2>Fantasy</h2>
+      <video
+        id="fantasy-video"
+        class="video-js vjs-theme-fantasy"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://stream.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3.m3u8"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <div class="player">
+      <h2>Fantasy (Nyan)</h2>
+      <video
+        id="fantasy-video"
+        class="video-js vjs-theme-fantasy nyan"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://stream.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3.m3u8"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <div class="player">
+      <h2>City</h2>
+      <video
+        id="city-video"
+        class="video-js vjs-theme-city"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://stream.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3.m3u8"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <script src="https://vjs.zencdn.net/7.6.0/video.js"></script>
+  </body>
+</html>

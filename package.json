@@ -1,0 +1,22 @@
+{
+  "name": "videojs-skin-website-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.22.9"
+  },
+  "dependencies": {
+    "postcss-inline-svg": "^4.1.0"
+  }
+}
