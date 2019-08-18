@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build ./packages/**/*.css --no-source-maps --no-content-hash"
   },
   "keywords": [],
   "author": "",
