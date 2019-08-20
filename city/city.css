@@ -50,6 +50,7 @@
 .vjs-theme-city .vjs-play-control {
   order: 2;
   flex: 8;
+  font-size: 1.75em;
 }
 
 .vjs-theme-city .vjs-volume-panel,
