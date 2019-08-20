@@ -74,7 +74,7 @@
 .vjs-theme-forest .vjs-volume-panel {
   margin-left: 0.5em;
   margin-right: 0.5em;
-  margin-top: 0.3em;
+  padding-top: 0.3em;
 }
 
 .vjs-theme-forest .vjs-volume-panel,

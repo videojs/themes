@@ -72,7 +72,7 @@
 .vjs-theme-city .vjs-volume-panel {
   margin-left: 0.5em;
   margin-right: 0.5em;
-  margin-top: 1.3em;
+  padding-top: 1.5em;
 }
 
 .vjs-theme-city .vjs-volume-panel,
@@ -121,7 +121,7 @@
   left: 0;
 
   border-style: solid;
-  border-width: 0 0 2em 3em;
+  border-width: 0 0 1.75em 3em;
   border-color: transparent transparent rgba(255, 255, 255, 0.25) transparent;
 }
 
@@ -140,6 +140,6 @@
   left: 0;
 
   border-style: solid;
-  border-width: 0 0 2em 3em;
+  border-width: 0 0 1.75em 3em;
   border-color: transparent transparent var(--vjs-theme-city--secondary) transparent;
 }
