@@ -1,5 +1,5 @@
 {
-  "name": "videojs-skin-website-themes",
+  "name": "@videojs/themes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
