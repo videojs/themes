@@ -46,3 +46,10 @@ import '@videojs/themes/dist/forest/index.css';
 // Sea
 import '@videojs/themes/dist/sea/index.css';
 ```
+
+Once you've got the theme pulled in, you can then add the relevant class to your player! The class names are structured as `vjs-theme-${THEME_NAME}`, so `vjs-theme-city` for the city theme or `vjs-theme-sea` for the sea theme.
+
+
+```html
+<video id="my-player" class="video-js vjs-theme-city" ...>
+```
