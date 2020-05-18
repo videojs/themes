@@ -143,3 +143,13 @@
   border-width: 0 0 1.75em 3em;
   border-color: transparent transparent var(--vjs-theme-city--secondary) transparent;
 }
+
+.vjs-theme-city .vjs-big-play-button{
+    top: 50% !important;
+    left: 50% !important;
+    margin-top: -1.5em;
+    margin-left:-3rem;
+    
+    border-radius:0px;
+    border-width: 1px;
+}
