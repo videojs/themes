@@ -53,3 +53,16 @@ Once you've got the theme pulled in, you can then add the relevant class to your
 ```html
 <video id="my-player" class="video-js vjs-theme-city" ...>
 ```
+
+# Building these locally
+
+If you want to use the CSS in this repo directly instead of using one of the CDNs or the NPM-hosted version, or just do some development, you'll need to clone the repo and `build` them.
+
+```
+$ git clone https://github.com/videojs/themes videojs-themes
+$ cd videojs-themes
+$ npm install
+$ npm run build
+```
+
+This will create a `dist` folder with the post-processed CSS in them, which you can upload right to your site. If you want to develop against these locally, you can run `npm run dev` to get a local server running a demo of all the themes on it.
