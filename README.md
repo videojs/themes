@@ -61,8 +61,8 @@ If you want to use the CSS in this repo directly instead of using one of the CDN
 ```
 $ git clone https://github.com/videojs/themes videojs-themes
 $ cd videojs-themes
-$ yarn install
-$ yarn build
+$ npm install
+$ npm run build
 ```
 
-This will create a `dist` folder with the post-processed CSS in them, which you can upload right to your site. If you want to develop against these locally, you can run `yarn dev` to get a local server running a demo of all the themes on it.
+This will create a `dist` folder with the post-processed CSS in them, which you can upload right to your site. If you want to develop against these locally, you can run `npm run dev` to get a local server running a demo of all the themes on it.
