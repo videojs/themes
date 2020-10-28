@@ -82,6 +82,7 @@
 .vjs-theme-forest .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-horizontal,
 .vjs-theme-forest .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
 .vjs-theme-forest .vjs-volume-panel.vjs-volume-panel-horizontal:hover,
+.vjs-theme-forest .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active,
 .vjs-theme-forest .vjs-volume-bar.vjs-slider-horizontal {
   width: 3em;
 }
