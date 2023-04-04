@@ -49,10 +49,6 @@
   margin-top: 2.5em;
 }
 
-.vjs-theme-city .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-horizontal {
-  height: 100%;
-}
-
 .vjs-theme-fantasy .vjs-progress-control .vjs-progress-holder {
   font-size: 1.5em;
 }
